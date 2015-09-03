@@ -5,7 +5,7 @@ When looping a video embedded using the HTML 5 video tag, the 'loop' attribute w
 The advantage of this method is that the pause is almost eradicated. High CPU usage may cause the loop transition to be affected. The disadvantage of this method is that the video is downloaded twice.
 
 ## Install
-Simple add the VideoLoop.js script to your javascript folder and include it in your web page.
+Simply add the VideoLoop.js script to your javascript folder and include it in your web page.
 
 ## Usage
 A demo HTML script is included (demo.html). Example usage for this script is as follows:
