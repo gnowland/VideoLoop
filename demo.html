@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>VideoLoop - By Mark Westguard (http://www.westguardsolutions.com)</title>
+
+<link rel="stylesheet" href="css/videoloop.css">
+<script src="js/VideoLoop.js"></script>
+
+</head>
+
+<body>
+
+<div id="myVideoLoop"></div>
+
+<script>
+
+	window.onload = function() {
+
+		// Initialize video loop
+		videoLoopObj = VideoLoop('myVideoLoop');
+		videoLoopObj.length = 7734;
+		videoLoopObj.paths = ['videos/homepage.mp4'];
+		videoLoopObj.types = ['video/mp4'];
+		videoLoopObj.init();
+	}
+
+</script>
+
+</body>
+
+</html>
