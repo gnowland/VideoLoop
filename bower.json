@@ -1,0 +1,28 @@
+{
+  "name": "videoloop",
+  "homepage": "https://github.com/westguard/VideoLoop",
+  "authors": [
+    "Mark Westguard <mark@westguardsolutions.com>"
+  ],
+  "description": "Seamlessly loop HTML5 videos",
+  "main": "VideoLoop.js",
+  "keywords": [
+    "HTML5",
+    "video",
+    "loop",
+    "JavaScript"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "source",
+    "spec",
+    ".bowerrc",
+    ".gitignore",
+    "demo"
+  ]
+}
