@@ -18,7 +18,7 @@ A demo HTML script is included (demo.html). Example usage for this script is as 
 	window.onload = function() {
 
 		// Initialize video loop
-		videoLoopObj = VideoLoop('myVideoLoop');
+		videoLoopObj = new VideoLoop('myVideoLoop');
 		videoLoopObj.length = 7734;
 		videoLoopObj.paths = ['videos/homepage.mp4'];
 		videoLoopObj.types = ['video/mp4'];
